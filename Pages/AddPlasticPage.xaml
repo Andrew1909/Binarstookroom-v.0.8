@@ -1,0 +1,64 @@
+﻿<Page x:Class="StockroomBinar.Pages.AddPlasticPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:StockroomBinar.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="740" d:DesignWidth="920"
+      Background="#36393E"
+      Title="AddPlasticPage" ShowsNavigationUI="False">
+
+    <Grid>
+        <Border Width="550" Height="550" Padding="3" Background="White" CornerRadius="100" HorizontalAlignment="Center"/>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+            <StackPanel Orientation="Vertical" HorizontalAlignment="Center">
+                <Label Content=" "/>
+                <Label Content=" "/>
+                <Label Content=" "/>
+                <Label Content=" "/>
+                <Label Content=" "/>
+                <Label Content=" "/>
+            <StackPanel Orientation="Horizontal">
+                <ComboBox x:Name="AddColordNamePlastic" Height="30" Width="250" Style="{DynamicResource MaterialDesignComboBox}" SelectionChanged="AddColordNamePlastic_SelectionChanged"/>
+                    <Label Content=" "/>
+                </StackPanel>
+            <Label Content=" "/>
+            <StackPanel Orientation="Horizontal">
+                <ComboBox x:Name="AddTypePlastic" Height="30" Width="250" Style="{DynamicResource MaterialDesignComboBox}" SelectionChanged="AddTypePlastic_SelectionChanged"/>
+                    <Label Content=" "/>
+                </StackPanel>
+            <Label Content=" "/>
+            <TextBox x:Name="AddCoilsPlastic" Height="30" Width="250" Style="{StaticResource MyWaterMarkStyle}" Tag="Введите кол-во катушек" SelectionChanged="AddCoilsPlastic_SelectionChanged" KeyDown="AddCoilsPlastic_KeyDown"/>
+            <Label Content=" "/>
+            <TextBox x:Name="AddWightPlastic" Height="30" Width="250" Style="{DynamicResource MyWaterMarkStyle}" Tag="Вес" PreviewKeyDown="AddWightPlastic_PreviewKeyDown"/>
+            <Label Content=" "/>
+            <TextBox x:Name="AddManufactPlastic" Height="30" Width="250" Style="{DynamicResource MyWaterMarkStyle}" Tag="Производитель"/>
+            <Label Content=" "/>
+            <TextBox x:Name="AddNotesPlastic" Height="30" Width="250" Style="{DynamicResource MyWaterMarkStyle}" Tag="Заметка"/>
+                <Label Content=" " FontSize="2"/>
+                <CheckBox x:Name="Brak" Content="Имеется бракованный пластик" Margin="4" Style="{DynamicResource MaterialDesignCheckBox}" Checked="Brak_Checked" Unchecked="Brak_Unchecked"/>
+                <TextBlock  x:Name="CountDefectCoilsText" Margin="5" TextDecorations="Underline"/>
+
+                
+                <Label Content=" " FontSize="2"/>
+                <Button x:Name="AddPlast" Width="150" Click="AddPlast_Click" Content="Добавить плаcтик" Background="#202225"/>
+
+        </StackPanel>
+            <StackPanel>
+                <Label Content=" "/>
+                <Label Content=" "/>
+                <Label Content=" "/>
+                <Label Content=" "/>
+                <Label Content=" "/>
+                <Label Content=" "/>
+                <Button x:Name="AddNewNameColor" Content="+ Добавить новый цвет" Style="{DynamicResource MaterialDesignFlatButton}" Click="AddNewNameColor_Click" Foreground="#202225"/>
+                <Label Content=" "/>
+                <Button x:Name="AddNewNameType" Content="+ Добавить новый тип" Style="{DynamicResource MaterialDesignFlatButton}" Click="AddNewNameType_Click"  Foreground="#202225"/>
+            </StackPanel>
+        </StackPanel>
+        <Frame x:Name="MyFrame"/>
+
+
+    </Grid>
+</Page>

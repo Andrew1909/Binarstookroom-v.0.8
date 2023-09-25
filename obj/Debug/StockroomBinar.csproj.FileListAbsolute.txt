@@ -1,0 +1,173 @@
+C:\Users\Ryzhov\source\repos\StockroomBinar\bin\Debug\StockroomBinar.exe.config
+C:\Users\Ryzhov\source\repos\StockroomBinar\bin\Debug\StockroomBinar.exe
+C:\Users\Ryzhov\source\repos\StockroomBinar\bin\Debug\StockroomBinar.pdb
+C:\Users\Ryzhov\source\repos\StockroomBinar\bin\Debug\ControlzEx.dll
+C:\Users\Ryzhov\source\repos\StockroomBinar\bin\Debug\MahApps.Metro.dll
+C:\Users\Ryzhov\source\repos\StockroomBinar\bin\Debug\MaterialDesignColors.dll
+C:\Users\Ryzhov\source\repos\StockroomBinar\bin\Debug\MaterialDesignThemes.MahApps.dll
+C:\Users\Ryzhov\source\repos\StockroomBinar\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\Ryzhov\source\repos\StockroomBinar\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\Ryzhov\source\repos\StockroomBinar\bin\Debug\ControlzEx.pdb
+C:\Users\Ryzhov\source\repos\StockroomBinar\bin\Debug\ControlzEx.xml
+C:\Users\Ryzhov\source\repos\StockroomBinar\bin\Debug\MahApps.Metro.pdb
+C:\Users\Ryzhov\source\repos\StockroomBinar\bin\Debug\MahApps.Metro.xml
+C:\Users\Ryzhov\source\repos\StockroomBinar\bin\Debug\MaterialDesignColors.pdb
+C:\Users\Ryzhov\source\repos\StockroomBinar\bin\Debug\MaterialDesignThemes.MahApps.pdb
+C:\Users\Ryzhov\source\repos\StockroomBinar\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\Ryzhov\source\repos\StockroomBinar\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\Ryzhov\source\repos\StockroomBinar\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\Ryzhov\source\repos\StockroomBinar\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\Ryzhov\source\repos\StockroomBinar\obj\Debug\StockroomBinar.csproj.AssemblyReference.cache
+C:\Users\Ryzhov\source\repos\StockroomBinar\obj\Debug\StockroomBinar.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ryzhov\source\repos\StockroomBinar\obj\Debug\MainWindow.g.cs
+C:\Users\Ryzhov\source\repos\StockroomBinar\obj\Debug\App.g.cs
+C:\Users\Ryzhov\source\repos\StockroomBinar\obj\Debug\StockroomBinar_MarkupCompile.cache
+C:\Users\Ryzhov\source\repos\StockroomBinar\obj\Debug\StockroomBinar_MarkupCompile.lref
+C:\Users\Ryzhov\source\repos\StockroomBinar\obj\Debug\App.baml
+C:\Users\Ryzhov\source\repos\StockroomBinar\obj\Debug\MainWindow.baml
+C:\Users\Ryzhov\source\repos\StockroomBinar\obj\Debug\StockroomBinar.g.resources
+C:\Users\Ryzhov\source\repos\StockroomBinar\obj\Debug\StockroomBinar.Properties.Resources.resources
+C:\Users\Ryzhov\source\repos\StockroomBinar\obj\Debug\StockroomBinar.csproj.GenerateResource.cache
+C:\Users\Ryzhov\source\repos\StockroomBinar\obj\Debug\StockroomBinar.csproj.CoreCompileInputs.cache
+C:\Users\Ryzhov\source\repos\StockroomBinar\obj\Debug\StockroomBinar.csproj.CopyComplete
+C:\Users\Ryzhov\source\repos\StockroomBinar\obj\Debug\StockroomBinar.exe
+C:\Users\Ryzhov\source\repos\StockroomBinar\obj\Debug\StockroomBinar.pdb
+C:\Users\Ryzhov\source\repos\StockroomBinar\obj\Debug\Pages\PlasticStorage.g.cs
+C:\Users\Ryzhov\source\repos\StockroomBinar\obj\Debug\Pages\PlasticStorage.baml
+C:\Users\Ryzhov\Desktop\StockroomBinar\bin\Debug\StockroomBinar.exe.config
+C:\Users\Ryzhov\Desktop\StockroomBinar\bin\Debug\StockroomBinar.exe
+C:\Users\Ryzhov\Desktop\StockroomBinar\bin\Debug\StockroomBinar.pdb
+C:\Users\Ryzhov\Desktop\StockroomBinar\bin\Debug\ControlzEx.dll
+C:\Users\Ryzhov\Desktop\StockroomBinar\bin\Debug\MahApps.Metro.dll
+C:\Users\Ryzhov\Desktop\StockroomBinar\bin\Debug\MaterialDesignColors.dll
+C:\Users\Ryzhov\Desktop\StockroomBinar\bin\Debug\MaterialDesignThemes.MahApps.dll
+C:\Users\Ryzhov\Desktop\StockroomBinar\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\Ryzhov\Desktop\StockroomBinar\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\Ryzhov\Desktop\StockroomBinar\bin\Debug\ControlzEx.pdb
+C:\Users\Ryzhov\Desktop\StockroomBinar\bin\Debug\ControlzEx.xml
+C:\Users\Ryzhov\Desktop\StockroomBinar\bin\Debug\MahApps.Metro.pdb
+C:\Users\Ryzhov\Desktop\StockroomBinar\bin\Debug\MahApps.Metro.xml
+C:\Users\Ryzhov\Desktop\StockroomBinar\bin\Debug\MaterialDesignColors.pdb
+C:\Users\Ryzhov\Desktop\StockroomBinar\bin\Debug\MaterialDesignThemes.MahApps.pdb
+C:\Users\Ryzhov\Desktop\StockroomBinar\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\Ryzhov\Desktop\StockroomBinar\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\Ryzhov\Desktop\StockroomBinar\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\Ryzhov\Desktop\StockroomBinar\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\Ryzhov\Desktop\StockroomBinar\obj\Debug\StockroomBinar.csproj.AssemblyReference.cache
+C:\Users\Ryzhov\Desktop\StockroomBinar\obj\Debug\StockroomBinar.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ryzhov\Desktop\StockroomBinar\obj\Debug\MainWindow.g.cs
+C:\Users\Ryzhov\Desktop\StockroomBinar\obj\Debug\Pages\PlasticStorage.g.cs
+C:\Users\Ryzhov\Desktop\StockroomBinar\obj\Debug\App.g.cs
+C:\Users\Ryzhov\Desktop\StockroomBinar\obj\Debug\StockroomBinar_MarkupCompile.cache
+C:\Users\Ryzhov\Desktop\StockroomBinar\obj\Debug\StockroomBinar_MarkupCompile.lref
+C:\Users\Ryzhov\Desktop\StockroomBinar\obj\Debug\App.baml
+C:\Users\Ryzhov\Desktop\StockroomBinar\obj\Debug\MainWindow.baml
+C:\Users\Ryzhov\Desktop\StockroomBinar\obj\Debug\Pages\PlasticStorage.baml
+C:\Users\Ryzhov\Desktop\StockroomBinar\obj\Debug\StockroomBinar.g.resources
+C:\Users\Ryzhov\Desktop\StockroomBinar\obj\Debug\StockroomBinar.Properties.Resources.resources
+C:\Users\Ryzhov\Desktop\StockroomBinar\obj\Debug\StockroomBinar.csproj.GenerateResource.cache
+C:\Users\Ryzhov\Desktop\StockroomBinar\obj\Debug\StockroomBinar.csproj.CoreCompileInputs.cache
+C:\Users\Ryzhov\Desktop\StockroomBinar\obj\Debug\StockroomBinar.csproj.CopyComplete
+C:\Users\Ryzhov\Desktop\StockroomBinar\obj\Debug\StockroomBinar.exe
+C:\Users\Ryzhov\Desktop\StockroomBinar\obj\Debug\StockroomBinar.pdb
+C:\Users\Ryzhov\Desktop\StockroomBinar\bin\Debug\EntityFramework.dll
+C:\Users\Ryzhov\Desktop\StockroomBinar\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ryzhov\Desktop\StockroomBinar\bin\Debug\EntityFramework.xml
+C:\Users\Ryzhov\Desktop\StockroomBinar\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ryzhov\Desktop\StockroomBinar\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Ryzhov\Desktop\StockroomBinar\obj\Debug\StockroomBinar_Content.g.cs
+C:\Users\Ryzhov\Desktop\StockroomBinar\obj\Debug\Pages\AddPlasticPage.g.cs
+C:\Users\Ryzhov\Desktop\StockroomBinar\obj\Debug\Pages\AddPlasticPage.baml
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\obj\Debug\StockroomBinar.csproj.AssemblyReference.cache
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\obj\Debug\StockroomBinar.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\obj\Debug\MainWindow.g.cs
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\obj\Debug\Pages\AddPlasticPage.g.cs
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\obj\Debug\Pages\PlasticStorage.g.cs
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\obj\Debug\App.g.cs
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\obj\Debug\StockroomBinar_Content.g.cs
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\obj\Debug\StockroomBinar_MarkupCompile.cache
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\obj\Debug\StockroomBinar_MarkupCompile.lref
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\obj\Debug\StockroomBinar.exe
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\obj\Debug\StockroomBinar.pdb
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\bin\Debug\StockroomBinar.exe.config
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\bin\Debug\StockroomBinar.exe
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\bin\Debug\StockroomBinar.pdb
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\bin\Debug\ControlzEx.dll
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\bin\Debug\EntityFramework.dll
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\bin\Debug\MahApps.Metro.dll
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\bin\Debug\MaterialDesignColors.dll
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\bin\Debug\MaterialDesignThemes.MahApps.dll
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\bin\Debug\ControlzEx.pdb
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\bin\Debug\ControlzEx.xml
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\bin\Debug\EntityFramework.xml
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\bin\Debug\MahApps.Metro.pdb
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\bin\Debug\MahApps.Metro.xml
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\bin\Debug\MaterialDesignColors.pdb
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\bin\Debug\MaterialDesignThemes.MahApps.pdb
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\obj\Debug\App.baml
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\obj\Debug\MainWindow.baml
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\obj\Debug\Pages\AddPlasticPage.baml
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\obj\Debug\Pages\PlasticStorage.baml
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\obj\Debug\StockroomBinar.g.resources
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\obj\Debug\StockroomBinar.Properties.Resources.resources
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\obj\Debug\StockroomBinar.csproj.GenerateResource.cache
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\obj\Debug\StockroomBinar.csproj.CoreCompileInputs.cache
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\obj\Debug\StockroomBinar.csproj.CopyComplete
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\obj\Debug\DialogWindow\AddNewNameColorWindow.g.cs
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\obj\Debug\DialogWindow\AddNewNameColorWindow.baml
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\obj\Debug\DialogWindow\AddNewTypeWindow.g.cs
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\obj\Debug\DialogWindow\AddNewTypeWindow.baml
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\obj\Debug\DialogWindow\AddDefectiveCoilsWindow.g.cs
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\obj\Debug\DialogWindow\AddDefectiveCoilsWindow.baml
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\obj\Debug\Pages\EditInfoPlastPage.g.cs
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\obj\Debug\Pages\EditInfoPlastPage.baml
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\obj\Debug\Pages\WasteRecyclingPage.g.cs
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\obj\Debug\Pages\WasteRecyclingPage.baml
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\bin\Debug\LiveCharts.dll
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\bin\Debug\LiveCharts.pdb
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\bin\Debug\LiveCharts.xml
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\obj\Debug\Pages\HomePage.g.cs
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\obj\Debug\Pages\HomePage.baml
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\obj\Debug\Pages\DefectiveCoilsPage.g.cs
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\obj\Debug\Pages\DefectiveCoilsPage.baml
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\obj\Debug\Pages\SettingPage.g.cs
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\obj\Debug\Pages\SettingPage.baml
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\obj\Debug\Pages\DeliveresInfoPage.g.cs
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\obj\Debug\Pages\DeliveresPage.g.cs
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\obj\Debug\Pages\DeliveresInfoPage.baml
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\obj\Debug\Pages\DeliveresPage.baml
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\obj\Debug\Pages\PlasticDitalesPage.g.cs
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\obj\Debug\Pages\PlasticDitalesPage.baml
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\obj\Debug\Pages\DeitalesProductionPage.g.cs
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\obj\Debug\Pages\DeitalesProductionPage.baml
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\obj\Debug\Pages\СalculatorPage.g.cs
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\obj\Debug\Pages\СalculatorPage.baml
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\obj\Debug\Pages\EngravingPage.g.cs
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\obj\Debug\Pages\EngravingPage.baml
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\obj\Debug\Pages\AddPlasticDitalesPage.g.cs
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\obj\Debug\Pages\AddPlasticDitalesPage.baml
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\obj\Debug\DialogWindow\SupportsAddWindow.g.cs
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\obj\Debug\DialogWindow\SupportsAddWindow.baml
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\obj\Debug\DialogWindow\AddNewDitalesWindow.g.cs
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\obj\Debug\DialogWindow\AddNewDitalesWindow.baml
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\obj\Debug\DialogWindow\CountEngravingWindow.g.cs
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\obj\Debug\DialogWindow\CountEngravingWindow.baml
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\obj\Debug\Pages\AddDitalesProductionPage.g.cs
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\obj\Debug\Pages\AddDitalesProductionPage.baml
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\obj\Debug\Pages\AddDeliveriesPage.g.cs
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\obj\Debug\Pages\AddDeliveriesPage.baml
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\obj\Debug\DialogWindow\AddDataForCalculatorWindow.g.cs
+C:\Users\Ryzhov\Desktop\StockroomBinar — копия\obj\Debug\DialogWindow\AddDataForCalculatorWindow.baml

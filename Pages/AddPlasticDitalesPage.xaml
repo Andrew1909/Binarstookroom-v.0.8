@@ -1,0 +1,72 @@
+﻿<Page x:Class="StockroomBinar.Pages.AddPlasticDitalesPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:StockroomBinar.Pages"
+      mc:Ignorable="d" 
+            d:DesignHeight="740" d:DesignWidth="920"
+ Background="#36393E" ShowsNavigationUI="False"
+      Title="AddPlasticDitalesPage">
+
+    <Grid>
+        <Border Width="550" Height="550" Padding="3" Background="White" CornerRadius="100" HorizontalAlignment="Center"/>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+            <StackPanel Orientation="Vertical" HorizontalAlignment="Center" Cursor="">
+                <Label Content=" "/>
+                <Label Content=" "/>
+                <Label Content=" "/>
+                <Label Content=" "/>
+                <Label Content=" "/>
+                <Label Content=" "/>
+                <StackPanel Orientation="Horizontal">
+                    <Label Content=" "/>
+                    <ComboBox x:Name="AddNameDitalies" Height="30" Width="250" Style="{DynamicResource MaterialDesignComboBox}" SelectionChanged="AddNameDitalies_SelectionChanged"/>
+                    <Label Content=" "/>
+                </StackPanel>
+                <Label Content=" "/>
+                <TextBox x:Name="AddWidthDitales" Height="30" Width="250" Style="{StaticResource MyWaterMarkStyle}" Tag="Вес детали"/>
+                <CheckBox x:Name="Suports" Content="Есть поддержки" Margin="4" Style="{DynamicResource MaterialDesignCheckBox}" Checked="Suports_Checked" Unchecked="Suports_Unchecked"/>
+                <Label Content=" "/>
+                <StackPanel Orientation="Horizontal">
+                    <Label Content=" "/>
+                    <TextBox x:Name="AddTimeDitalis" Text="0:00" Height="30" Width="100" Style="{DynamicResource MyWaterMarkStyle}" Tag="Время печати"/>
+                </StackPanel>
+                <Label Content=" "/>
+                <StackPanel Orientation="Horizontal">
+                    <Label Content=" "/>
+                    <ComboBox x:Name="AddColordNamePlastic" Height="30" Width="250" Style="{DynamicResource MaterialDesignComboBox}" SelectionChanged="AddColordNamePlastic_SelectionChanged"/>
+                    <Label Content=" "/>
+                </StackPanel>
+                <Label Content=" "/>
+                <TextBox x:Name="AddCountDitalis" Height="30" Width="250" Style="{DynamicResource MyWaterMarkStyle}" Tag="Количество"/>
+                <Label Content=" " FontSize="2"/>
+               <CheckBox x:Name="Engraving" Content="Нужна граировка" Margin="4" Style="{DynamicResource MaterialDesignCheckBox}" Checked="Engraving_Checked" Unchecked="Engraving_Unchecked"/>
+                <Label Content=" " FontSize="2"/>
+                <StackPanel Orientation="Horizontal">
+                     <TextBlock  x:Name="EngravingCountsText" Margin="5" TextDecorations="Underline"/>
+                    <TextBlock Text=" будут направлены на гравировку" x:Name="EngravingText"/>
+                </StackPanel>
+               
+                <Button x:Name="AddDitalis" Width="150" Click="AddDitalis_Click" Content="Добавить деталь" Background="#202225"/>
+            </StackPanel>
+            <StackPanel>
+                <Label Content=" "/>
+                <Label Content=" "/>
+                <Label Content=" "/>
+                <Label Content=" "/>
+                <Label Content=" "/>
+                <Label Content=" "/>
+                <Button x:Name="AddNewNameDitales" Content="+ Добавить новую деталь" Style="{DynamicResource MaterialDesignFlatButton}" Click="AddNewNameDitales_Click" Foreground="#202225"/>
+                <Label Content=" "/>
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="+" x:Name="Plus"/>
+                    <TextBlock x:Name="SupportsWight"/>
+                    <TextBlock Text=" вес поддержек" x:Name="NextTextSupports"/>
+                </StackPanel>
+               
+            </StackPanel>
+        </StackPanel>
+        <Frame x:Name="MyFrame"/>
+    </Grid>
+</Page>

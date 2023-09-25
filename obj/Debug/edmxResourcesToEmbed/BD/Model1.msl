@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище StockroomBinarModelContainer" CdmEntityContainer="StockroomBinarEntities">
+    <EntitySetMapping Name="ColorPlastic">
+      <EntityTypeMapping TypeName="StockroomBinarModel.ColorPlastic">
+        <MappingFragment StoreEntitySet="ColorPlastic">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="NameColor" ColumnName="NameColor" />
+          <ScalarProperty Name="Notes" ColumnName="Notes" />
+          <ScalarProperty Name="IDInside" ColumnName="IDInside" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DefectivePlastic">
+      <EntityTypeMapping TypeName="StockroomBinarModel.DefectivePlastic">
+        <MappingFragment StoreEntitySet="DefectivePlastic">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ColorName" ColumnName="ColorName" />
+          <ScalarProperty Name="PlasticType" ColumnName="PlasticType" />
+          <ScalarProperty Name="Manufacturer" ColumnName="Manufacturer" />
+          <ScalarProperty Name="Weight" ColumnName="Weight" />
+          <ScalarProperty Name="NumberСoils" ColumnName="NumberСoils" />
+          <ScalarProperty Name="PlasticStatus" ColumnName="PlasticStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Deliveries">
+      <EntityTypeMapping TypeName="StockroomBinarModel.Deliveries">
+        <MappingFragment StoreEntitySet="Deliveries">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="СustomerТame" ColumnName="СustomerТame" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DeliveriesProducts">
+      <EntityTypeMapping TypeName="StockroomBinarModel.DeliveriesProducts">
+        <MappingFragment StoreEntitySet="DeliveriesProducts">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="IDInside" ColumnName="IDInside" />
+          <ScalarProperty Name="CodeDitals" ColumnName="CodeDitals" />
+          <ScalarProperty Name="ReadyDitals" ColumnName="ReadyDitals" />
+          <ScalarProperty Name="NecessaryCountDitals" ColumnName="NecessaryCountDitals" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="NumberPosition" ColumnName="NumberPosition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DitalesProduction">
+      <EntityTypeMapping TypeName="StockroomBinarModel.DitalesProduction">
+        <MappingFragment StoreEntitySet="DitalesProduction">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="CodeDitales" ColumnName="CodeDitales" />
+          <ScalarProperty Name="EngravingStatus" ColumnName="EngravingStatus" />
+          <ScalarProperty Name="CountOnStoock" ColumnName="CountOnStoock" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="IDPlasticProducts">
+      <EntityTypeMapping TypeName="StockroomBinarModel.IDPlasticProducts">
+        <MappingFragment StoreEntitySet="IDPlasticProducts">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="NameProduct" ColumnName="NameProduct" />
+          <ScalarProperty Name="IDInside" ColumnName="IDInside" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="IDProductsProduction">
+      <EntityTypeMapping TypeName="StockroomBinarModel.IDProductsProduction">
+        <MappingFragment StoreEntitySet="IDProductsProduction">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="NameProducts" ColumnName="NameProducts" />
+          <ScalarProperty Name="IDInside" ColumnName="IDInside" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Notifications">
+      <EntityTypeMapping TypeName="StockroomBinarModel.Notifications">
+        <MappingFragment StoreEntitySet="Notifications">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Descriptiont" ColumnName="Descriptiont" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PlasticProducts">
+      <EntityTypeMapping TypeName="StockroomBinarModel.PlasticProducts">
+        <MappingFragment StoreEntitySet="PlasticProducts">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ProductWeight" ColumnName="ProductWeight" />
+          <ScalarProperty Name="SupportsWeight" ColumnName="SupportsWeight" />
+          <ScalarProperty Name="EngravingStatus" ColumnName="EngravingStatus" />
+          <ScalarProperty Name="TimePrint" ColumnName="TimePrint" />
+          <ScalarProperty Name="ProductTypeID" ColumnName="ProductTypeID" />
+          <ScalarProperty Name="ColorName" ColumnName="ColorName" />
+          <ScalarProperty Name="TypePlasticPrint" ColumnName="TypePlasticPrint" />
+          <ScalarProperty Name="ManufacturerPlasticPrint" ColumnName="ManufacturerPlasticPrint" />
+          <ScalarProperty Name="CountOnStoock" ColumnName="CountOnStoock" />
+          <ScalarProperty Name="IDInside" ColumnName="IDInside" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PlasticStor">
+      <EntityTypeMapping TypeName="StockroomBinarModel.PlasticStor">
+        <MappingFragment StoreEntitySet="PlasticStor">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ColorName" ColumnName="ColorName" />
+          <ScalarProperty Name="PlasticType" ColumnName="PlasticType" />
+          <ScalarProperty Name="Weight" ColumnName="Weight" />
+          <ScalarProperty Name="NumberСoils" ColumnName="NumberСoils" />
+          <ScalarProperty Name="Manufacturer" ColumnName="Manufacturer" />
+          <ScalarProperty Name="ProfileCura" ColumnName="ProfileCura" />
+          <ScalarProperty Name="PlasticName" ColumnName="PlasticName" />
+          <ScalarProperty Name="Notes" ColumnName="Notes" />
+          <ScalarProperty Name="IDInsaid" ColumnName="IDInsaid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PlasticType">
+      <EntityTypeMapping TypeName="StockroomBinarModel.PlasticType">
+        <MappingFragment StoreEntitySet="PlasticType">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="NameType" ColumnName="NameType" />
+          <ScalarProperty Name="Notes" ColumnName="Notes" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProductsForEngraving">
+      <EntityTypeMapping TypeName="StockroomBinarModel.ProductsForEngraving">
+        <MappingFragment StoreEntitySet="ProductsForEngraving">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ProductTypeID" ColumnName="ProductTypeID" />
+          <ScalarProperty Name="Profile" ColumnName="Profile" />
+          <ScalarProperty Name="IDInside" ColumnName="IDInside" />
+          <ScalarProperty Name="Count" ColumnName="Count" />
+          <ScalarProperty Name="ReadyCount" ColumnName="ReadyCount" />
+          <ScalarProperty Name="TypeDitalesID" ColumnName="TypeDitalesID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RecyclingPlastic">
+      <EntityTypeMapping TypeName="StockroomBinarModel.RecyclingPlastic">
+        <MappingFragment StoreEntitySet="RecyclingPlastic">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ColorNameRecucling" ColumnName="ColorNameRecucling" />
+          <ScalarProperty Name="PlasticTypeRecucling" ColumnName="PlasticTypeRecucling" />
+          <ScalarProperty Name="ManufacturerRecucling" ColumnName="ManufacturerRecucling" />
+          <ScalarProperty Name="WeightRecucling" ColumnName="WeightRecucling" />
+          <ScalarProperty Name="PlasticStatus" ColumnName="PlasticStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="StockroomBinarModel.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

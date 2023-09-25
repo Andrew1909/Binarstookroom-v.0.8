@@ -1,0 +1,47 @@
+﻿<Page x:Class="StockroomBinar.Pages.PlasticDitalesPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:StockroomBinar.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="740" d:DesignWidth="920"
+ Background="#36393E" ShowsNavigationUI="False"
+      Title="PlasticDitalesPage">
+
+    <Grid>
+        <StackPanel Orientation="Vertical">
+            <Label Content=" " FontSize="1"/>
+            <StackPanel Orientation="Horizontal">
+                <TextBox x:Name="SearchColor" Style="{DynamicResource MyWaterMarkStyle}" Tag="Поиск по названию" Height="35" Width="250" HorizontalAlignment="Left" SelectionChanged="SearchColor_SelectionChanged"></TextBox>
+                <Label Content=" "/>
+                <!--<ComboBox x:Name="PlastType" Width="200" Height="25" SelectionChanged="PlastType_SelectionChanged" ></ComboBox>-->
+            </StackPanel>
+            <Label Content=" "/>
+            <DataGrid Style="{DynamicResource MaterialDesignDataGrid}" CellStyle="{DynamicResource MaterialDesignDataGridCell}" x:Name="PlastitDitelisView" AutoGenerateColumns="False" Height="550" Background="#F5F5F5" >
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Код" Binding="{Binding ProductTypeID}"/>
+                    <DataGridTextColumn Header="Вес изделия (с учетом поддержек)" Binding="{Binding SumWeight}"/>
+                    <DataGridTextColumn Header="Время печати" Binding="{Binding TimePrint}"/>
+                    <DataGridTextColumn Header="Кол-во c гравировкой" Binding="{Binding EngravingStatus}"/>
+                    <DataGridTextColumn Header="Кол-во на складе" Binding="{Binding CountOnStoock}"/>
+                    <DataGridTextColumn Header="Цвет" Binding="{Binding ColorName}"/>
+                    <DataGridTemplateColumn>
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <StackPanel Orientation="Vertical">
+                                    <!--<Button x:Name="Edit" Content="Редактировать" Click="Edit_Click" FontSize="11" Height="20" Style="{DynamicResource MaterialDesignFlatButton}" Foreground="#2F3136"/>-->
+                                </StackPanel>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                </DataGrid.Columns>
+            </DataGrid>
+            <Label Content=" "/>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Cursor="">
+                <Button x:Name="AddDitalis" Width="155" Click="AddDitalis_Click" Content="Добавить деталь" Cursor="Hand" Background="#202225"/>
+            </StackPanel>
+        </StackPanel>
+        <Frame x:Name="MyFrame"/>
+    </Grid>
+</Page>

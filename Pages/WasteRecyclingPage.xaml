@@ -1,0 +1,45 @@
+﻿<Page x:Class="StockroomBinar.Pages.WasteRecyclingPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:StockroomBinar.Pages"
+      mc:Ignorable="d" 
+ d:DesignHeight="740" d:DesignWidth="920"
+      Title="Edit" Background="#36393E" ShowsNavigationUI="False">
+    <Grid>
+        <StackPanel Orientation="Vertical">
+            <Label Content=" " FontSize="1"/>
+            <StackPanel Orientation="Horizontal">
+                <TextBox x:Name="SearchColor"  Style="{DynamicResource MyWaterMarkStyle}" Tag="Поиск по названию" Height="35" Width="250" HorizontalAlignment="Left" SelectionChanged="SearchColor_SelectionChanged"></TextBox>
+                <Label Content=" "/>
+                <ComboBox x:Name="PlastType" Width="200" Height="25" SelectionChanged="PlastType_SelectionChanged"></ComboBox>
+            </StackPanel>
+            <Label Content=" "/>
+            <DataGrid Style="{DynamicResource MaterialDesignDataGrid}" CellStyle="{DynamicResource MaterialDesignDataGridCell}" x:Name="PlastitRecyclingView" AutoGenerateColumns="False" Height="550">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Название цвета" Binding="{Binding ColorNameRecucling}"/>
+                    <DataGridTextColumn Header="Тип платика" Binding="{Binding PlasticTypeRecucling}"/>
+                    <DataGridTextColumn Header="Вес" Binding="{Binding WeightRecucling}"/>
+                    <DataGridTextColumn Header="Производитель" Binding="{Binding ManufacturerRecucling}"/>
+                    <DataGridTemplateColumn>
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <StackPanel Orientation="Vertical">
+                                    <CheckBox x:Name="AddRecyclingName" Checked="AddRecyclingName_Checked" Unchecked="AddRecyclingName_Unchecked" Background="#202225"/>
+                                </StackPanel>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                </DataGrid.Columns>
+            </DataGrid>
+            <Label Content=" "/>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                <Button x:Name="RecyclingNameDel" Content="Переработать" Height="30" Width="170" Click="RecyclingNameDel_Click" Background="#202225"/>
+                <Label Content=" "/>
+                <!--<Button Content="Выбрать все" Style="{DynamicResource MaterialDesignFlatButton}" Height="30" Width="170" Foreground="White"/>-->
+            </StackPanel>
+        </StackPanel>
+        <Frame x:Name="MyFrame"/>
+    </Grid>
+</Page>

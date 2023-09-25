@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="StockroomBinarModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="ColorPlastic">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NameColor" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Notes" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="IDInside" Type="Int32" />
+  </EntityType>
+  <EntityType Name="DefectivePlastic">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ColorName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="PlasticType" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Manufacturer" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Weight" Type="Decimal" Precision="18" Scale="3" />
+    <Property Name="NumberСoils" Type="Int32" />
+    <Property Name="PlasticStatus" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Deliveries">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="СustomerТame" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Date" Type="DateTime" Precision="0" />
+    <Property Name="Status" Type="Int32" />
+  </EntityType>
+  <EntityType Name="DeliveriesProducts">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IDInside" Type="Int32" />
+    <Property Name="CodeDitals" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="ReadyDitals" Type="Int32" />
+    <Property Name="NecessaryCountDitals" Type="Int32" />
+    <Property Name="Status" Type="Int32" />
+    <Property Name="NumberPosition" Type="Int32" />
+  </EntityType>
+  <EntityType Name="DitalesProduction">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CodeDitales" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="EngravingStatus" Type="Int32" />
+    <Property Name="CountOnStoock" Type="Int32" />
+  </EntityType>
+  <EntityType Name="IDPlasticProducts">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NameProduct" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="IDInside" Type="Int32" />
+  </EntityType>
+  <EntityType Name="IDProductsProduction">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NameProducts" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="IDInside" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Notifications">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Descriptiont" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Status" Type="Int32" />
+  </EntityType>
+  <EntityType Name="PlasticProducts">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductWeight" Type="Decimal" Precision="18" Scale="3" />
+    <Property Name="SupportsWeight" Type="Decimal" Precision="18" Scale="3" />
+    <Property Name="EngravingStatus" Type="Int32" />
+    <Property Name="TimePrint" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+    <Property Name="ProductTypeID" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="ColorName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="TypePlasticPrint" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ManufacturerPlasticPrint" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="CountOnStoock" Type="Int32" />
+    <Property Name="IDInside" Type="Int32" />
+  </EntityType>
+  <EntityType Name="PlasticStor">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ColorName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="PlasticType" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Weight" Type="Decimal" Precision="18" Scale="3" />
+    <Property Name="NumberСoils" Type="Int32" />
+    <Property Name="Manufacturer" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ProfileCura" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="PlasticName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Notes" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="IDInsaid" Type="Int32" />
+  </EntityType>
+  <EntityType Name="PlasticType">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="NameType" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Notes" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="ProductsForEngraving">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductTypeID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Profile" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="IDInside" Type="Int32" />
+    <Property Name="Count" Type="Int32" />
+    <Property Name="ReadyCount" Type="Int32" />
+    <Property Name="TypeDitalesID" Type="Int32" />
+  </EntityType>
+  <EntityType Name="RecyclingPlastic">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ColorNameRecucling" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="PlasticTypeRecucling" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ManufacturerRecucling" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="WeightRecucling" Type="Decimal" Precision="18" Scale="3" />
+    <Property Name="PlasticStatus" Type="Int32" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityContainer Name="StockroomBinarEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="ColorPlastic" EntityType="Self.ColorPlastic" />
+    <EntitySet Name="DefectivePlastic" EntityType="Self.DefectivePlastic" />
+    <EntitySet Name="Deliveries" EntityType="Self.Deliveries" />
+    <EntitySet Name="DeliveriesProducts" EntityType="Self.DeliveriesProducts" />
+    <EntitySet Name="DitalesProduction" EntityType="Self.DitalesProduction" />
+    <EntitySet Name="IDPlasticProducts" EntityType="Self.IDPlasticProducts" />
+    <EntitySet Name="IDProductsProduction" EntityType="Self.IDProductsProduction" />
+    <EntitySet Name="Notifications" EntityType="Self.Notifications" />
+    <EntitySet Name="PlasticProducts" EntityType="Self.PlasticProducts" />
+    <EntitySet Name="PlasticStor" EntityType="Self.PlasticStor" />
+    <EntitySet Name="PlasticType" EntityType="Self.PlasticType" />
+    <EntitySet Name="ProductsForEngraving" EntityType="Self.ProductsForEngraving" />
+    <EntitySet Name="RecyclingPlastic" EntityType="Self.RecyclingPlastic" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+  </EntityContainer>
+</Schema>
